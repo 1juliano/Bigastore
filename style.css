@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend", sans-serif;
+  text-decoration: none;
+}
+
+/* HEADER COM OVERLAY ESCURO */
+header {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+  url("https://images.unsplash.com/photo-1542751371-adc38448a05e");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+/* NAV */
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 92px;
+}
+
+.navbar {
+  display: flex;
+  gap: 40px;
+}
+
+.navbar a {
+  color: #cccccc;
+}
+
+.navbar .active {
+  color: #fff;
+}
+
+.btns {
+  display: flex;
+  gap: 16px;
+}
+
+.btns a {
+  background-color: #3B44F6;
+  padding: 10px 16px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.btns a:last-child {
+  background: transparent;
+  border: 1px solid #fff;
+}
+
+/* HERO */
+.hero {
+  padding: 95px;
+  height: calc(100vh - 95px);
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.hero h1 {
+  font-size: 48px;
+}
+
+.hero p {
+  width: 400px;
+  font-size: 20px;
+}
+
+.hero a {
+  width: 160px;
+  text-align: center;
+  padding: 14px;
+  background-color: #3B44F6;
+  border-radius: 8px;
+  color: #fff;
+}
+
+/* WHY US */
+#why-us {
+  text-align: center;
+  padding: 60px;
+}
+
+#why-us .cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.card {
+  width: 200px;
+}
+
+/* GAMES */
+#games-genres {
+  padding: 60px;
+}
+
+#games-genres .cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* CARDS COM IMAGEM */
+.card-bg {
+  width: 200px;
+  height: 200px;
+  background-image: url("https://images.unsplash.com/photo-1511512578047-dfb367046420");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.card-bg:hover {
+  transform: scale(1.05);
+}
